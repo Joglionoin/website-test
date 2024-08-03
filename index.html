@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Sign up</title>
     <link rel="stylesheet" href="style.css">
     <script src="login.js"></script>
-    <script src ="data.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: wheat">
+<body style="background-color: #e8e8e8">
 
     <div class="topLeft-logo">
         <img src="logo.svg" alt="logo" width="100" height="100">
@@ -14,16 +17,15 @@
 
     <div class="login-form">
         <h1>Login</h1>
-        <a href="signup.html">Sign up</a>
-        <hr>
+        <button type="button" onclick="location.href='signup.html'" id="sign-up">Sign up</button>
         <form id="login">
-            <label for="name">Username</label><br>
+            <label style="font-size: 2rem;" for="name">Username</label><br>
             <input type="text" id="name1" name="name" placeholder="Username"><br>
-            <label for="pass">Password</label><br>
+            <label style="font-size: 2rem;" for="pass">Password</label><br>
             <input type="password" id="pass1" name="pass" placeholder="Password"><br>
-            <input type="submit" value="SUBMIT">
+            <input id="submit" type="submit" value="SUBMIT">
         </form>
     </div>
-    
+
 </body>
 </html>
