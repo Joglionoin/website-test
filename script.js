@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     signUp_button.addEventListener("click", function() {
         login_Form.style.display = "none"
-        signUp_Form.style.display = "block"
+        signUp_Form.style.display = "flex"
     })
 
     login_button.addEventListener("click", function() {
-        login_Form.style.display = "block"
+        login_Form.style.display = "flex"
         signUp_Form.style.display = "none"
     })
 
